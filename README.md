@@ -12,7 +12,7 @@ and explainable trade-offs.
 
 This portfolio currently includes:
 
-### 1️⃣ Streaming & Lakehouse Architecture  
+### 1.  Streaming & Lakehouse Architecture  
 **Folder:** `mini-lakehouse-kafka`
 
 Demonstrates:
@@ -26,7 +26,7 @@ Focus: Streaming data pipelines and layered data architecture.
 
 ---
 
-### 2️⃣ NoSQL Event Modeling Component  
+### 2. NoSQL Event Modeling Component  
 **Folder:** `mongo-nosql-poc`
 
 Demonstrates:
@@ -41,6 +41,20 @@ Focus: Document database modeling and read/write separation.
 
 ---
 
+### 3. Infrastructure as Code – Data Platform Skeleton
+**Folder:** `terraform-data-platform-skeleton`
+
+Demonstrates:
+- Modular Terraform structure (network / storage / compute separation)
+- Environment layering (dev/prod) without code duplication
+- Input/output contracts via variables.tf and outputs.tf
+- Remote state strategy with locking and team collaboration considerations
+- Architecture Decision Records (ADR) for infrastructure trade-offs
+
+Focus: Infrastructure as Code design patterns for a minimal data platform.
+
+---
+
 ## Architectural Themes Across Projects
 
 Across these components, the following principles are intentionally demonstrated:
@@ -51,6 +65,7 @@ Across these components, the following principles are intentionally demonstrated
 - Clear indexing strategy
 - Controlled trade-offs
 - Modular system thinking
+- Infrastructure as Code modularity
 
 Each project is intentionally isolated to keep architectural concepts focused and explainable.
 
@@ -65,6 +80,7 @@ This portfolio demonstrates:
 - Stream processing patterns
 - Projection-based read optimization
 - Practical infrastructure reproducibility
+- Infrastructure design patterns and environment isolation
 
 It is designed to show architectural reasoning rather than production hardening.
 

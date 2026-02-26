@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Terraform Data Platform Skeleton
 
 A modular, environment-layered Terraform structure representing a minimal 
@@ -68,7 +67,7 @@ and explainable trade-offs.
 
 This portfolio currently includes:
 
-### 1️⃣ Streaming & Lakehouse Architecture  
+### 1. Streaming & Lakehouse Architecture  
 **Folder:** `mini-lakehouse-kafka`
 
 Demonstrates:
@@ -82,7 +81,7 @@ Focus: Streaming data pipelines and layered data architecture.
 
 ---
 
-### 2️⃣ NoSQL Event Modeling Component  
+### 2.  NoSQL Event Modeling Component  
 **Folder:** `mongo-nosql-poc`
 
 Demonstrates:
@@ -136,4 +135,3 @@ Potential future components may include:
 - Schema evolution strategies
 - Data governance examples
 
->>>>>>> 6fe3be87ceba57790d710b8c1c20167e32c2d772
