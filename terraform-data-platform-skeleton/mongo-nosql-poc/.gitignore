@@ -1,0 +1,14 @@
+# env / secrets
+.env
+
+# python
+.venv/
+__pycache__/
+*.pyc
+
+# docker volumes
+mongo_data/
+
+# os
+.DS_Store
+

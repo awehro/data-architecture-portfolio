@@ -1,0 +1,12 @@
+# Docker / Runtime
+*.log
+**/tmp
+.kafka
+
+# OS
+.DS_Store
+
+# Spark outputs / checkpoints
+data/
+checkpoints/
+

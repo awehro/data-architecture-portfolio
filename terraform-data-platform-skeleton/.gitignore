@@ -1,0 +1,13 @@
+<<<<<<< HEAD
+.terraform/
+terraform.tfstate
+terraform.tfstate.backup
+.terraform.lock.hcl
+*.tfvars
+=======
+**/.venv/
+**/__pycache__/
+**/.env
+**/.DS_Store
+
+>>>>>>> 6fe3be87ceba57790d710b8c1c20167e32c2d772
